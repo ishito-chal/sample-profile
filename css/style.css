@@ -105,8 +105,24 @@ a:hover {
 
 .bic-img {
   width: 100%;
-  max-width: 300px;
+  max-width: 100%;
 }
 .bic-box {
-  margin: 0 10px;
+  padding: 0 10px 10px;
+}
+
+/* 画面サイズ 600px 未満 */
+@media (max-width: 599px) {
+  /* スタイルルール */
+  #mainvisual img {
+    height: calc(100vh - 60px);
+  }
+
+  #bic-div {
+    display: block;
+  }
+
+  .bic-box {
+    padding: 0 0 10px;
+  }
 }
