@@ -1,0 +1,112 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /* height: 60px; */
+}
+
+.site-logo {
+  width: 120px;
+  line-height: 1px; /* 行間を縮めて変な空白を消す */
+  padding: 10px 0;
+  a {
+    display: block;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+.wrapper {
+  max-width: 900px;
+  padding: 0 4%;
+  text-align: center;
+}
+
+a:link, a:visited, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  opacity: 0.7;
+}
+
+#mainvisual {
+  margin-bottom: 80px;
+}
+
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.section {
+  margin: 0 auto 80px; /* 上下左右のマージンで中央揃え。Top RightLeft Bottom */
+}
+#about-div {
+  display: flex;
+  justify-content: center; /* content内のitemを中央に寄せる */
+  align-items: center; /* itemの中身を中央に寄せる */
+}
+#about-sec-img {
+  width: 100%;
+  max-width: 100px;
+  height: 100px;
+  border-radius: 50%; /* 丸くする */
+  overflow-clip-margin: content-box; /* 画像の外側の枠？ */
+  overflow: clip; /* 画像の外側を切り取る */
+}
+#about-text {
+  text-align: left;
+  margin-left: 20px;
+}
+
+#bic-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  font-size: 0.5rem;
+  margin-bottom: 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 60px;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+.sub-title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+.comment {
+  font-size: small;
+}
+
+.bic-img {
+  width: 100%;
+  max-width: 300px;
+}
+.bic-box {
+  margin: 0 10px;
+}
