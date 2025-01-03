@@ -118,6 +118,10 @@ a:hover {
     height: calc(100vh - 60px);
   }
 
+  #about-div {
+    display: block;
+  }
+
   #bic-div {
     display: block;
   }
